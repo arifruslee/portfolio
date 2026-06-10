@@ -276,6 +276,22 @@ img { display: block; max-width: 100%; }
 .feature-card--plants   .feature-card__icon { background: var(--c-water); }
 .feature-card--notify   .feature-card__icon { background: var(--c-cleanup); }
 .feature-card--backup   .feature-card__icon { background: #E2EDD4; }
+.feature-card--ai       .feature-card__icon { background: #EDE4F8; }
+
+.badge-coming-soon {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: #EDE4F8;
+  color: #6B3FA0;
+  padding: 2px 7px;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin-left: 6px;
+  line-height: 1.6;
+}
 
 /* ─── Download section ─────────────────────────────── */
 .download {
